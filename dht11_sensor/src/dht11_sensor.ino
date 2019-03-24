@@ -34,7 +34,7 @@
 #define DHTTYPE  DHT11       // Sensor type DHT11/21/22/AM2301/AM2302
 #define DHTPIN   D2          // Digital pin for communications
 
-int sendDelay = 60000;
+int sendDelay = 30000;
 
 TCPClient client;
 byte server[] = { 216, 58, 223, 78 }; // Google
